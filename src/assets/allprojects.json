@@ -1,0 +1,66 @@
+[
+    {
+        "name": "crandom",
+        "version": "1.0.5",
+        "description": "A random number generator using circular equations to adjust probability distribution",
+        "owner": {
+            "name": "Alper Berber",
+            "email": "berber@sabanciuniv.edu",
+            "github": "alperb"
+        },
+        "github_url": "https://github.com/tosuninc/crandom",
+        "keywords": [
+            "generator",
+            "random"
+        ],
+        "dependencies": {
+        },
+        "status_tags": [
+            { "name": "help-wanted", "color": "success" },
+            { "name": "good-first-contribution", "color": "info" }
+        ]
+    },
+    {
+        "name": "uniter",
+        "version": "1.0.6",
+        "description": "A number millifier for converting long numbers to human readable, prettified format",
+        "owner": {
+            "name": "Alper Berber",
+            "email": "berber@sabanciuniv.edu",
+            "github": "alperb"
+        },
+        "github_url": "https://github.com/tosuninc/uniter",
+        "keywords": [
+        ],
+        "dependencies": {
+        },
+        "status_tags": [
+            { "name": "help-wanted", "color": "success" },
+            { "name": "good-first-contribution", "color": "info" },
+            { "name": "documentation-missing", "color": "danger" }
+        ]
+    },
+    {
+        "name": "odenne",
+        "version": "1.0.5",
+        "description": "A strongly typed battle simulation module written in Typescript",
+        "owner": {
+            "name": "Alper Berber",
+            "email": "berber@sabanciuniv.edu",
+            "github": "alperb"
+        },
+        "github_url": "https://github.com/tosuninc/odenne",
+        "keywords": [
+        ],
+        "dependencies": {
+            "crandom": "^1.0.5",
+            "dotenv": "^16.0.0",
+            "lodash": "^4.17.21"
+        },
+        "status_tags": [
+            { "name": "help-wanted", "color": "success" },
+            { "name": "urgent-issues", "color": "danger" },
+            { "name": "documentation-missing", "color": "danger" }
+        ]
+    }
+]
