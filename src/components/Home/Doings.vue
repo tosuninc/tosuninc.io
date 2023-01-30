@@ -9,7 +9,7 @@
                 </div>
 
                 <!-- What we do -->
-                <div class="col text-center">
+                <div class="col-lg-4 col-sm-12 text-center">
                     <i class="fas fa-users fa-3x"></i>
                     <h3>Community</h3>
                     <p class="text-muted">
@@ -18,7 +18,7 @@
                     </p>
                 </div>
 
-                <div class="col text-center">
+                <div class="col-lg-4 col-sm-12 text-center">
                     <i class="fas fa-project-diagram fa-3x"></i>
                     <h4>Projects</h4>
                     <p class="text-muted">
@@ -28,7 +28,7 @@
                     </p>
                 </div>
 
-                <div class="col text-center">
+                <div class="col-lg-4 col-sm-12 text-center">
                     <i class="fas fa-globe fa-3x"></i>
                     <h3>Open Source </h3>
                     <p class="text-muted">

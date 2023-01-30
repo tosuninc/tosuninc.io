@@ -27,7 +27,7 @@
                 <div class="col-lg-10 col-sm-12 offset-lg-1">
                     <div class="row">
 
-                        <div v-for="project in projects" :key="project.name" class="col-4 mb-3">
+                        <div v-for="project in projects" :key="project.name" class="col-lg-4 col-sm-12 mb-3">
                             <div class="card border-dark">
                                 <div class="card-header">
                                     {{ project.name }}

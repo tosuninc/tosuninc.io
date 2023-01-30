@@ -38,8 +38,8 @@ export default {
 
 <style>
 .member-image {
-    width: 100px;
-    height: 100px;
+    width: 10vh;
+    height: 10vh;
     border-radius: 50%;
     border: 1px solid #e9ecef;
     margin-top: 10px;

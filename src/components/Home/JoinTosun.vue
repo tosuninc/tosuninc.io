@@ -2,7 +2,7 @@
     <div id="JoinTosun">
         <div class="container-fluid join-promo">
             <div class="row">
-                <div class="col-lg-5 offset-lg-1 col-sm-12">
+                <div class="col-lg-5 offset-lg-1 col-sm-12 mb-3">
                     <h2>Become a Tosun today!</h2>
                     <p>
                         As the Tosun community, everyone is welcome to join us.
@@ -12,7 +12,7 @@
                     </p>
                     <a target="_blank" href="https://forms.gle/SZiBhascwbE6pzKHA" class="btn btn-dark">Become a tosun!</a>
                 </div>
-                <div class="col-lg-5 col-sm-12">
+                <div class="col-lg-5 col-sm-12 mb-3">
                     <h2>Open source your project!</h2>
                     <p>
                         We will be honored to open source your project!
