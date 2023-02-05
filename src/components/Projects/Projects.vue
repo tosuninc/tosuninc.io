@@ -37,7 +37,7 @@
                                         <strong>Project Lead:</strong>
                                         {{ project.owner.name }}
                                         (<a :href="`mailto:${project.owner.email}`">mail</a>)
-                                        (<a target="_blank" :href="`https://github.com${project.owner.github}`">github.com/{{ project.owner.github }}</a>)
+                                        (<a target="_blank" :href="`https://github.com/${project.owner.github}`">github.com/{{ project.owner.github }}</a>)
                                     </div>
                                     <div class="card-title">
                                         <strong>Description:</strong>
@@ -48,7 +48,7 @@
                                         {{ tag.name }}
                                     </span>
                                 </div>
-                                <ul v-if="Object.keys(project.dependencies).length > 0" class="list-group list-group-flush">
+                                <!-- <ul v-if="Object.keys(project.dependencies).length > 0" class="list-group list-group-flush">
                                     <li class="list-group-item"><strong>Dependencies</strong></li>
                                     <li v-for="name in Object.keys(project.dependencies)" :key="name" class="list-group-item">
                                         {{ name }}: {{ project.dependencies[name] }}
@@ -57,7 +57,7 @@
                                             Tosun Project
                                         </span>
                                     </li>
-                                </ul>
+                                </ul> -->
                                 <div class="card-footer">
                                     <a target="_blank" :href="project.github_url" class="btn btn-dark float-end">View Project</a>
                                 </div>

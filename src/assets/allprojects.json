@@ -13,8 +13,6 @@
             "generator",
             "random"
         ],
-        "dependencies": {
-        },
         "status_tags": [
             { "name": "help-wanted", "color": "success" },
             { "name": "good-first-contribution", "color": "info" }
@@ -32,8 +30,6 @@
         "github_url": "https://github.com/tosuninc/uniter",
         "keywords": [
         ],
-        "dependencies": {
-        },
         "status_tags": [
             { "name": "help-wanted", "color": "success" },
             { "name": "good-first-contribution", "color": "info" },
@@ -52,14 +48,26 @@
         "github_url": "https://github.com/tosuninc/odenne",
         "keywords": [
         ],
-        "dependencies": {
-            "crandom": "^1.0.5",
-            "dotenv": "^16.0.0",
-            "lodash": "^4.17.21"
-        },
         "status_tags": [
             { "name": "help-wanted", "color": "success" },
             { "name": "urgent-issues", "color": "danger" },
+            { "name": "documentation-missing", "color": "danger" }
+        ]
+    },
+    {
+        "name": "tdag",
+        "version": "1.0.0",
+        "description": "A simple implementation of directed acyclic graph (DAG) in Go",
+        "owner": {
+            "name": "Edip Emre Bodur",
+            "email": "edipemre.bodur@bahcesehir.edu.tr",
+            "github": "emrebdr"
+        },
+        "github_url": "https://github.com/tosuninc/tdag",
+        "keywords": [
+        ],
+        "status_tags": [
+            { "name": "help-wanted", "color": "success" },
             { "name": "documentation-missing", "color": "danger" }
         ]
     }
