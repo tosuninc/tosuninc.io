@@ -1,7 +1,7 @@
 <template>
     <div id="Footer">
         <div id="footer" class="container-fluid">
-            <div class="row">
+            <div class="row pt-3 pb-4">
                 <div class="col-12 copy-text text-center">
                     <img src="@/assets/img/only-tosun.png" class="footer-full-tosun" alt="">
                     <br>

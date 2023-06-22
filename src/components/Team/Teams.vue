@@ -13,7 +13,7 @@
 
                     <div class="row mt-5">
 
-                        <div v-for="team in teams" :key="team.name" class="col-lg-6 col-sm-12">
+                        <div v-for="team in teams" :key="team.name" class="col-lg-6 col-sm-12 mt-4">
                             <h4>{{ team.name }}</h4>
                             <hr>
 
@@ -45,6 +45,13 @@ export default {
           description: 'This team is responsible for the security of Tosun organization.',
           members: [
             { name: 'M. Bilgehan Ertan', github: 'bilgehanertan', image: 'bilgehan.jpeg' }
+          ]
+        },
+        {
+          name: 'AI Researchers',
+          description: 'This team is responsible for the AI researches of Tosun organization.',
+          members: [
+            { name: 'Emirhan Boge', github: 'emirhanboge', image: 'boge.jpeg' }
           ]
         },
         {
